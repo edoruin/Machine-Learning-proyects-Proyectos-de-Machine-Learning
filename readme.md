@@ -1,58 +1,67 @@
-Change to english: https://github.com/edoruin/Machine-Learning-proyects-Proyectos-de-Machine-Learning/blob/main/readme.en.md
+# Proyectos de Machine Learning 🤖
 
-# Indice
-
-1. [Acerca de](#Acerca-de)
-2. [Predicción de Salarios](#Predicción-de-Salarios)
-
-## Acerca de
-
-Este repositorio es una recopilación de proyectos basados en Machine Learning que he desarrollado a lo largo de mi trayectoria.
-
-<b>Nota: </b>  Cliquear en los encabezados de los proyectos para redirigirse.
+| Idioma | Enlace |
+| :--- | :--- |
+| 🇪🇸 **Español** | [readme.md](readme.md) |
+| 🇺🇸 **Inglés** | [English Version](readme.en.md) |
 
 ---
 
-# Proyectos 
+## 📑 Índice
 
-## [Predicción de Salarios](https://github.com/edoruin/Machine-Learning-projects-Proyectos-de-Machine-Learning/tree/main/Prediccion%20de%20Salarios)
-
-### Sobre el proyecto
-
-En este proyecto, creé un modelo de regresión lineal en R Studio para predecir los salarios de los empleados de una empresa ficticia basándome en las variables edad y experiencia. Utilicé métricas y gráficos para analizar:
-
-- La relación entre las variables predictoras y la variable de salario.
-- La relación entre las variables predictoras entre sí para evaluar la multicolinealidad.
-- El rendimiento del modelo y cómo las variables afectan su desempeño.
-
-Utilicé métricas como RMSE y R^2 para evaluar la precisión del modelo y entender cómo las variables explican la variabilidad en los salarios.
-
-
-## Instalación
-
-Para poder ejecutar el código sin problemas, simplemente instala las bibliotecas necesarias y ejecuta las líneas de código pertinentes.
-
-
-## Uso
-
-Para utilizar este proyecto:
-
-1. Asegúrate de tener R y RStudio instalados en tu computadora.
-2. Ejecuta las líneas de código proporcionadas.
-
-**Nota:** El código está documentado para facilitar su comprensión.
+1. [Acerca de](#acerca-de)
+2. [Proyectos](#proyectos)
+   - [Predicción de Salarios](#predicción-de-salarios)
+   - [Binary Prediction with a Rainfall Dataset](#binary-prediction-with-a-rainfall-dataset)
 
 ---
 
-## [Binary Prediction with a Rainfall Dataset](https://github.com/edoruin/Machine-Learning-projects-Proyectos-de-Machine-Learning/blob/main/Binary%20Prediction%20Competition.ipynb)
+## ℹ️ Acerca de
 
-### Sobre el proyecto
+Este repositorio es una recopilación de diversos proyectos de **Machine Learning** desarrollados a lo largo de mi formación y trayectoria profesional. Aquí se exploran desde modelos estadísticos clásicos hasta algoritmos avanzados de boosting.
 
-Primera competición de Kaggle en la que participo activamente. Esta basada en la inferencia climatica. Utilice seleccion de caracteristicas y algoritmos de boosting para obtener los resultados.
+> **Nota:** Puedes hacer clic en los encabezados de los proyectos para acceder directamente al código fuente.
 
-## Instalación
+---
 
-Puede acceder a el desde el archivo de github, redirigirlo a Kaggle e instalarlo desde alli si tiene interes en descargarlo
+## 🚀 Proyectos
 
-## Uso
-Solo es necesario tener las librerias que se utilizan en el notebook. 
+### 1. [Predicción de Salarios](./Prediccion%20de%20Salarios/Predicción%20de%20Salarios%20.R)
+
+En este proyecto, se desarrolló un modelo de **Regresión Lineal Múltiple** en R para predecir los salarios de empleados en una empresa ficticia, utilizando como variables predictoras la **edad** y los **años de experiencia**.
+
+#### Análisis realizado:
+- **Relación de variables:** Análisis de correlación entre predictores y la variable objetivo.
+- **Multicolinealidad:** Evaluación de la relación entre variables independientes para asegurar la estabilidad del modelo.
+- **Métricas de rendimiento:** Uso de **RMSE** y **R²** para evaluar la precisión y la capacidad explicativa del modelo.
+
+#### 🛠️ Requisitos
+- R y RStudio.
+- Librerías: `ggplot2`, `dplyr` (incluidas en el script).
+
+---
+
+### 2. [Binary Prediction with a Rainfall Dataset](./Binary%20Prediction%20Competition.ipynb)
+
+Este proyecto corresponde a mi participación en una competición de **Kaggle** enfocada en la inferencia climática. El objetivo es predecir la probabilidad de lluvia utilizando un conjunto de datos histórico.
+
+#### Aspectos destacados:
+- **Selección de Características:** Uso de técnicas de filtrado y análisis de importancia.
+- **Algoritmos Avanzados:** Implementación de modelos de boosting como **XGBoost** y **CatBoost**.
+- **Optimización:** Ajuste de hiperparámetros para maximizar la métrica AUC-ROC.
+
+#### 🛠️ Requisitos
+- Python 3.x
+- Jupyter Notebook / Kaggle Kernel.
+- Librerías: `pandas`, `scikit-learn`, `xgboost`, `catboost`, `matplotlib`, `seaborn`.
+
+---
+
+## 📥 Instalación y Uso
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/edoruin/Machine-Learning-proyects-Proyectos-de-Machine-Learning.git
+   ```
+2. Asegúrate de tener instalados los lenguajes necesarios (R o Python) según el proyecto que desees explorar.
+3. Instala las dependencias listadas en cada sección.
